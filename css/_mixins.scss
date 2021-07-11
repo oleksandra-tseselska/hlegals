@@ -1,9 +1,3 @@
-@mixin media-breakpoint-up($breakpoint-name) {
-  $breakpoint-value: map-get($grid-breakpoints , $breakpoint-name);
-  @media screen and (min-width: $breakpoint-value) {
-    @content;
-  }
-}
 @mixin hero {
   font-size: 42px;
   line-height: (50/42);
