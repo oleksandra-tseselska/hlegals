@@ -1,0 +1,36 @@
+@mixin media-breakpoint-up($breakpoint-name) {
+  $breakpoint-value: map-get($grid-breakpoints , $breakpoint-name);
+  @media screen and (min-width: $breakpoint-value) {
+    @content;
+  }
+}
+@mixin hero {
+  font-size: 42px;
+  line-height: (50/42);
+}
+@mixin h2 {
+  font-size: 32px;
+  line-height: (38/32);
+}
+@mixin h3 {
+  font-size: 24px;
+  line-height: (28/24);
+}
+@mixin h3-caps {
+  font-size: 14px;
+  line-height: (17/14);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@mixin h4 {
+  font-size: 18px;
+  line-height: (21/18);
+}
+@mixin paragraph {
+  font-size: 18px;
+  line-height: (26/18);
+}
+@mixin link {
+  font-size: 16px;
+  line-height: (20/16);
+}
