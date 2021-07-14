@@ -50,7 +50,7 @@
     color: $gray-text-color;
     text-decoration: none;
   }
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(md) {
     &:hover{
       color: $gray-text-color;
       background-color: $gray-bg-alt-color;
