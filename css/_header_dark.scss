@@ -1,0 +1,99 @@
+.header-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.toggle-lang__link-dark-bg {
+  @include spacing-link;
+  color: white;
+  padding: 5px 6px;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  @include media-breakpoint-up(xl) {
+    &:hover{
+      color: $gray-text-color;
+      background-color: $gray-bg-alt-color;
+      border-radius: 8px;
+    }
+  }
+}
+.toggle-lang__link--active {
+  color: white;
+  background-color: $accent-color;
+  border-radius: 8px;
+  &:hover{
+    color: white;
+    background-color: $accent-color;
+  }
+}
+.header-address-dark-bg {
+  @include link;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  @include media-breakpoint-up(xxl) {
+    padding-right: 8px;
+    padding-left: 14px;
+  }
+}
+.icon-point-header-dark-bg {
+  font-size: 6px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.header-phone-dark-bg {
+  @include link(700);
+  color: white;
+  padding: 7px 3px;
+  &:hover{
+    color: white;
+    text-decoration: none;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 10px 5px;
+  }
+}
+.header-icon-facebook-dark-bg {
+  font-size: 24px;
+  color: white;
+  transition-property: color;
+  transition-duration: 0.3s;
+  &:hover{
+    color: $active-regular-color;
+  }
+}
+.burger-menu-dark-bg {
+  font-size: 20px;
+  color: white;
+}
+.desktop-nav__link-dark-bg {
+  position: relative;
+  @include h4(500);
+  color: white;
+  padding: 8px;
+  transition-property: color;
+  transition-duration: 0.3s;
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+.desktop-nav__link-dark-bg--active {
+  color: white;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: '';
+    width: 78%;
+    left: 9px;
+    bottom: 5px;
+    border-bottom: 2px solid white;
+  }
+  &:hover {
+    color: white;
+  }
+}
