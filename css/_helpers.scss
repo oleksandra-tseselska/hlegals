@@ -7,9 +7,14 @@
 .d-none {
   display: none;
 }
-.d-xl-none {
-  @include media-breakpoint-up(xl) {
+.d-md-none {
+  @include media-breakpoint-up(md) {
     display: none;
+  }
+}
+.d-md-block {
+  @include media-breakpoint-up(md) {
+    display: block;
   }
 }
 .d-xl-block {
@@ -28,7 +33,3 @@
 .white-color {
   color: white;
 } 
-// bad decision
-.padding-right-null {
-  padding-right: 0 !important;
-}

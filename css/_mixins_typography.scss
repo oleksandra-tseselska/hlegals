@@ -2,7 +2,7 @@
   font-size: 19px;
   line-height: (22/19);
   padding-top: 2px;
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(md) {
     font-size: 38px;
     line-height: (45/38);
   }
