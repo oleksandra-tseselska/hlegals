@@ -69,6 +69,9 @@
 .burger-menu-dark-bg {
   font-size: 20px;
   color: white;
+  &:active {
+    color: $main-color;
+  }
 }
 .desktop-nav__link-dark-bg {
   position: relative;

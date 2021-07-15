@@ -2534,7 +2534,13 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 6px 3px 6px 8px;
+  padding: 7px 7px;
+  margin-right: -4px;
+}
+
+.burger-button:active {
+  background-color: #ededf7;
+  border-radius: 12px;
 }
 
 @media (min-width: 768px) {
@@ -2769,6 +2775,10 @@ p {
   color: white;
 }
 
+.burger-menu-dark-bg:active {
+  color: #323264;
+}
+
 .desktop-nav__link-dark-bg {
   position: relative;
   font-size: 18px;
@@ -2805,11 +2815,16 @@ p {
   color: white;
 }
 
-.modal-nav-close-button {
+.modal-dialog__close-btn {
   color: #ec6f5d;
   font-size: 18px;
   line-height: 1;
   padding: 10px;
+}
+
+.modal-dialog__close-btn:active {
+  background-color: #ededf7;
+  border-radius: 12px;
 }
 
 .mobile-nav {
@@ -2835,6 +2850,10 @@ p {
 .mobile-nav__link:hover {
   color: #f0145a;
   text-decoration: none;
+}
+
+.mobile-nav__link:active {
+  background-color: #ededf7;
 }
 
 .mobile-nav__link--active {

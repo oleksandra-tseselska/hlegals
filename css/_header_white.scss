@@ -153,7 +153,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 3px 6px 8px;
+  padding: 7px 7px;
+  margin-right: -4px;
+  &:active {
+    background-color: $gray-bg-alt-color;
+    border-radius: 12px;
+  }
   @include media-breakpoint-up(md) {
     &:focus {
       outline: none;
