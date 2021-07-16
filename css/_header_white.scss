@@ -48,7 +48,7 @@
   padding: 5px 6px;
   &:hover {
     color: $gray-text-color;
-    text-decoration: none;
+    // text-decoration: none;
   }
   @include media-breakpoint-up(md) {
     &:hover{
@@ -89,7 +89,7 @@
   padding: 7px 3px;
   &:hover{
     color: $gray-text-color;
-    text-decoration: none;
+    // text-decoration: none;
   }
   @include media-breakpoint-up(xl) {
     padding: 10px 5px;
