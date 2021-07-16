@@ -48,7 +48,6 @@
   padding: 5px 6px;
   &:hover {
     color: $gray-text-color;
-    // text-decoration: none;
   }
   @include media-breakpoint-up(md) {
     &:hover{
@@ -89,7 +88,6 @@
   padding: 7px 3px;
   &:hover{
     color: $gray-text-color;
-    // text-decoration: none;
   }
   @include media-breakpoint-up(xl) {
     padding: 10px 5px;
@@ -97,9 +95,6 @@
 }
 .facebook-link {
   padding: 7px 0 7px 5px;
-  &:hover{
-    text-decoration: none;
-  }
 }
 .header-icon-facebook {
   font-size: 24px;
@@ -198,7 +193,6 @@
   transition-duration: 0.3s;
   &:hover {
     color: $accent-color;
-    text-decoration: none;
   }
 }
 .desktop-nav__list:nth-last-child(1) {

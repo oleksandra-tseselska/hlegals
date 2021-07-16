@@ -2462,10 +2462,6 @@ a:hover {
   padding: 7px 0 7px 5px;
 }
 
-.facebook-link:hover {
-  text-decoration: none;
-}
-
 .header-icon-facebook {
   font-size: 24px;
   color: #b3b3ba;
@@ -2642,7 +2638,6 @@ a:hover {
 
 .desktop-nav__link:hover {
   color: #f0145a;
-  text-decoration: none;
 }
 
 @media (min-width: 992px) {
@@ -2724,7 +2719,6 @@ a:hover {
 
 .toggle-lang__link-dark-bg:hover {
   color: white;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -2778,7 +2772,6 @@ a:hover {
 
 .header-phone-dark-bg:hover {
   color: white;
-  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
@@ -2824,7 +2817,6 @@ a:hover {
 
 .desktop-nav__link-dark-bg:hover {
   color: #f0145a;
-  text-decoration: none;
 }
 
 .desktop-nav__link-dark-bg--active {
