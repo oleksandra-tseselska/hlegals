@@ -2933,6 +2933,10 @@ a:hover {
   margin-top: 30px;
 }
 
+.contacts-section__info-tel:hover {
+  color: #323264;
+}
+
 .contacts-section__info-email {
   font-size: 21px;
   line-height: 1.42857;
@@ -2940,6 +2944,10 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
+}
+
+.contacts-section__info-email:hover {
+  color: #f0145a;
 }
 
 .border {
@@ -2958,6 +2966,10 @@ a:hover {
   padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.contacts-section__info-social:hover {
+  color: #f0145a;
 }
 
 .social-icon {
@@ -3033,7 +3045,6 @@ a:hover {
 .contacts-section__form-user-email {
   font-size: 18px;
   line-height: 1.44444;
-  color: #b3b3ba;
   background-color: white;
   border-radius: 8px;
   padding: 10px;
@@ -3052,7 +3063,6 @@ a:hover {
 .contacts-section__form-user-phone {
   font-size: 18px;
   line-height: 1.44444;
-  color: #b3b3ba;
   background-color: white;
   border-radius: 8px;
   padding: 10px;
@@ -3071,6 +3081,14 @@ a:hover {
   padding: 16px 73px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.contacts-section__form-send-btn:hover {
+  background-color: #0085ff;
+}
+
+.contacts-section__form-send-btn:active {
+  background-color: #006ccf;
 }
 
 .contacts-iframe {
