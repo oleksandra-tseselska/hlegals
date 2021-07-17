@@ -2884,7 +2884,7 @@ a:hover {
 
 .home-hero-section {
   height: 500px;
-  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7a425e 87.53%);
 }
 
 .contacts-section {
@@ -2909,28 +2909,28 @@ a:hover {
 }
 
 .contacts-section__info-town {
+  padding-top: 10px;
+  color: #323264;
   font-size: 21px;
   line-height: 1.42857;
   font-weight: 500;
-  color: #323264;
-  padding-top: 10px;
 }
 
 .contacts-section__info-street {
+  border-bottom: 4px solid #e6e6f0;
+  padding-bottom: 20px;
+  color: #323264;
   font-size: 21px;
   line-height: 1.42857;
-  color: #323264;
-  padding-bottom: 20px;
-  border-bottom: 4px solid #e6e6f0;
 }
 
 .contacts-section__info-tel {
-  font-size: 21px;
-  line-height: 1.42857;
-  color: #323264;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 30px;
+  color: #323264;
+  font-size: 21px;
+  line-height: 1.42857;
 }
 
 .contacts-section__info-tel:hover {
@@ -2938,12 +2938,12 @@ a:hover {
 }
 
 .contacts-section__info-email {
-  font-size: 21px;
-  line-height: 1.42857;
-  color: #24a3ff;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  color: #24a3ff;
+  font-size: 21px;
+  line-height: 1.42857;
 }
 
 .contacts-section__info-email:hover {
@@ -2955,17 +2955,17 @@ a:hover {
 }
 
 .contacts-section__info-social {
-  color: #24a3ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #24a3ff;
 }
 
 .contacts-section__info-social:hover {
@@ -2977,12 +2977,6 @@ a:hover {
 }
 
 .social-text {
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.33333;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding-left: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2990,23 +2984,29 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .contacts-section__form {
-  background-color: #f5f5fa;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
   margin-right: -20px;
-  margin-left: -20px;
   margin-bottom: 40px;
+  margin-left: -20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #f5f5fa;
 }
 
 @media (min-width: 576px) {
   .contacts-section__form {
-    border-radius: 12px;
     margin-right: 0;
     margin-left: 0;
+    border-radius: 12px;
   }
 }
 
@@ -3017,11 +3017,11 @@ a:hover {
 }
 
 .contacts-section__form-title {
-  font-size: 22px;
-  line-height: 1.18182;
-  color: #f0145a;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #f0145a;
+  font-size: 22px;
+  line-height: 1.18182;
 }
 
 @media (min-width: 1200px) {
@@ -3033,54 +3033,54 @@ a:hover {
 
 @media (min-width: 1200px) {
   .contacts-section__form-title {
-    background-image: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    color: transparent;
+    background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
   }
 }
 
 .contacts-section__form-user-message,
 .contacts-section__form-user-name,
 .contacts-section__form-user-email {
-  font-size: 18px;
-  line-height: 1.44444;
-  background-color: white;
+  margin-bottom: 20px;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 20px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.44444;
 }
 
 .contacts-section__form-text {
+  padding-bottom: 20px;
+  color: #b3b3ba;
   font-size: 14px;
   line-height: 1.21429;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #b3b3ba;
-  padding-bottom: 20px;
 }
 
 .contacts-section__form-user-phone {
-  font-size: 18px;
-  line-height: 1.44444;
-  background-color: white;
+  margin-bottom: 8px;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 8px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.44444;
 }
 
 .contacts-section__form-send-btn {
   display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  padding: 16px 73px;
+  -webkit-box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
   font-size: 14px;
   line-height: 17px;
   color: white;
   background-color: #24a3ff;
-  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-  border-radius: 12px;
-  padding: 16px 73px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .contacts-section__form-send-btn:hover {
@@ -3092,11 +3092,12 @@ a:hover {
 }
 
 .contacts-iframe {
+  border: none;
   width: 100%;
 }
 
 .services-hero-section {
   height: 500px;
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
 }
 /*# sourceMappingURL=main.css.map */

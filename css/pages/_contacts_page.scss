@@ -10,32 +10,32 @@
   flex-direction: column;
 }
 .contacts-section__info-town {
-  @include pain-text(500);
+  padding-top: 10px;
   color: $main-color;
-  padding-top: 10px
+  @include pain-text(500);
 }
 .contacts-section__info-street {
-  @include pain-text;
-  color: $main-color;
-  padding-bottom: 20px;
   border-bottom: 4px solid $gray-separator-color;
+  padding-bottom: 20px;
+  color: $main-color;
+  @include pain-text;
 }
 .contacts-section__info-tel {
-  @include pain-text;
-  color: $main-color;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 30px;
+  color: $main-color;
+  @include pain-text;
   &:hover {
     color: $main-color;
   }
 }
 .contacts-section__info-email {
-  @include pain-text;
-  color: $active-regular-color;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  color: $active-regular-color;
+  @include pain-text;
   &:hover {
     color: $accent-color;
   }
@@ -44,13 +44,13 @@
   border-bottom: 4px solid $gray-separator-color;
 }
 .contacts-section__info-social {
-  color: $active-regular-color;
   display: flex;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $active-regular-color;
   &:hover {
     color: $accent-color;
   }
@@ -59,72 +59,72 @@
   font-size: 38px;
 }
 .social-text {
-  @include spacing-link-big;
-  padding-left: 10px;
   display: inline-flex;
   flex-direction: column;
+  padding-left: 10px;
+  @include spacing-link-big;
 }
 .contacts-section__form {
-  background-color: $gray-bg-color;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
   margin-right: -20px;
-  margin-left: -20px;
   margin-bottom: 40px;
+  margin-left: -20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: $gray-bg-color;
   @include media-breakpoint-up(sm) {
-    border-radius: 12px;
     margin-right: 0;
     margin-left: 0;
+    border-radius: 12px;
   }
   @include media-breakpoint-up(md) {
     margin-bottom: 0;
   }
 }
 .contacts-section__form-title {
-  @include h2;
-  color: $accent-color;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: $accent-color;
+  @include h2;
   @include media-breakpoint-up(xl) {
+    color: transparent;
     background-image: $gradient-red-text-color;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
   }
 }
 .contacts-section__form-user-message,
 .contacts-section__form-user-name,
 .contacts-section__form-user-email {
-  @include sub-pain-text;
-  background-color: white;
+  margin-bottom: 20px;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 20px;
+  background-color: white;
+  @include sub-pain-text;
 }
 .contacts-section__form-text {
-  @include h3-caps;
-  color: $gray-text-color;
   padding-bottom: 20px;
+  color: $gray-text-color;
+  @include h3-caps;
 }
 .contacts-section__form-user-phone {
-  @include sub-pain-text;
-  background-color: white;
+  margin-bottom: 8px;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 8px;
+  background-color: white;
+  @include sub-pain-text;
 }
 .contacts-section__form-send-btn {
   display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  padding: 16px 73px;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
   font-size: 14px;
   line-height: 17px;
   color: white;
   background-color: $active-regular-color;
-  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-  border-radius: 12px;
-  padding: 16px 73px;
-  margin-right: auto;
-  margin-left: auto;
   &:hover {
     background-color: $active-hover-color;
   }
@@ -133,5 +133,6 @@
   }
 }
 .contacts-iframe {
+  border: none;
   width: 100%;
 }
