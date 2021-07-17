@@ -2,14 +2,6 @@
   font-size: 32px;
   line-height: (38/32);
   font-weight: bold;
-  // @if $color == alt {
-  //   color: $gray-text-color;
-  // } @else {
-  //   background-image: $gradient-red-text-color;
-  //   -webkit-background-clip: text;
-  //   background-clip: text;
-  //   color: transparent;
-  // }
   @include media-breakpoint-up(xl) {
     font-size: 42px;
     line-height: (50/42);
