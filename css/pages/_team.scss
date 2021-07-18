@@ -1,0 +1,47 @@
+.main-content-title{
+  color: transparent;
+  background-image: $gradient-red-text-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+.main-content-link {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.main-content-img {
+  display: inline-flex;
+}
+.link-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.link-text-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  @include h4(500);
+  color: $main-color;
+  &:hover {
+    color: $accent-color;
+  }
+}
+.link-text-position {
+  font-size: 16px;
+  line-height: (22/16);
+  color: $gray-text-color;
+  margin-bottom: 10px;
+}
+.link-icon-arrow-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: $gray-bg-color;
+  border-radius: 50px;
+  color: $active-regular-color;
+  font-size: 12px;
+}
