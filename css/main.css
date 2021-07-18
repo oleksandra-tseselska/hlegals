@@ -3275,11 +3275,59 @@ a:hover {
 }
 
 .main-content-title {
+  font-size: 32px;
+  line-height: 1.1875;
+  font-weight: bold;
   color: transparent;
   background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   background-clip: text;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .main-content-title {
+    font-size: 42px;
+    line-height: 1.19048;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content-title {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-content-title {
+    padding-top: 20px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-content-title {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-content-title {
+    padding-right: 240px;
+    padding-left: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .layout-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 
 .main-content-link {
