@@ -1,0 +1,83 @@
+@mixin header-title {
+  font-size: 19px;
+  line-height: (22/19);
+  padding-top: 2px;
+  @include media-breakpoint-up(md) {
+    font-size: 38px;
+    line-height: (45/38);
+  }
+}
+@mixin hero-title {
+  font-size: 32px;
+  line-height: (38/32);
+  font-weight: bold;
+  @include media-breakpoint-up(xl) {
+    font-size: 42px;
+    line-height: (50/42);
+  }
+}
+@mixin h2 {
+  font-size: 22px;
+  line-height: (26/22);
+  @include media-breakpoint-up(xl) {
+    font-size: 32px;
+    line-height: (38/32);
+  }
+}
+@mixin h3 {
+  font-size: 18px;
+  line-height: (21/18);
+  @include media-breakpoint-up(xl) {
+    font-size: 24px;
+    line-height: (28/24);
+  }
+}
+@mixin h3-caps {
+  font-size: 14px;
+  line-height: (17/14);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@mixin h4($font-weight: null){
+  font-size: 18px;
+  line-height: (21/18);
+  @if $font-weight != null {
+    font-weight: $font-weight;
+  }
+}
+@mixin paragraph {
+  font-size: 18px;
+  line-height: (26/18);
+  @include media-breakpoint-up(xl) {
+    font-size: 21px;
+    line-height: (30/21);
+  }
+}
+@mixin sub-paragraph {
+  font-size: 16px;
+  line-height: (22/16);
+  @include media-breakpoint-up(xl) {
+    font-size: 18px;
+    line-height: (26/18);
+  }
+}
+@mixin link($font-weight: null) {
+  font-size: 16px;
+  line-height: (19/16);
+  @if $font-weight != null {
+    font-weight: $font-weight;
+  }
+}
+@mixin sub-link {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: (14/12);
+  letter-spacing: 1px;
+}
+@mixin spacing-link {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: (14/12);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

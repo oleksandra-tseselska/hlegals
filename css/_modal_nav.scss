@@ -1,0 +1,37 @@
+.modal-dialog__close-btn {
+  color: #ec6f5d;
+  font-size: 18px;
+  line-height: 1;
+  padding: 10px;
+  &:active {
+    background-color: $gray-bg-alt-color;
+    border-radius: 12px;
+  }
+}
+.mobile-nav {
+  padding-top: 27px;
+}
+.mobile-nav__list-item {
+  padding-bottom: 11px;
+}
+.mobile-nav__link {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: (28/24);
+  font-weight: 500;
+  color: $active-regular-color;
+  background-color: $gray-bg-color;
+  border-radius: 12px;
+  padding: 8px 18px;
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+  &:active {
+    background-color: $gray-bg-alt-color;
+  }
+}
+.mobile-nav__link--active {
+  color: $accent-color;
+}

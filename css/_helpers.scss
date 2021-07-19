@@ -1,0 +1,35 @@
+.d-flex {
+  display: flex;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.d-none {
+  display: none;
+}
+.d-md-none {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+.d-md-block {
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+.d-xl-block {
+  @include media-breakpoint-up(xl) {
+    display: block;
+  }
+}
+.order-1 {
+  @include media-breakpoint-up(xl) {
+    order: -1;
+  }
+}
+.main-color {
+  color: $main-color;
+} 
+.white-color {
+  color: white;
+} 
