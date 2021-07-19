@@ -3333,6 +3333,8 @@ a:hover {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
     padding-bottom: 20px;
   }
 }
@@ -3363,8 +3365,10 @@ a:hover {
 
 @media (min-width: 992px) {
   .main-content-link {
-    display: -ms-grid;
-    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -3484,7 +3488,7 @@ a:hover {
   color: #f0145a;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .link-text-name {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3493,7 +3497,7 @@ a:hover {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .link-text-name-first {
     margin-left: 8px;
   }
