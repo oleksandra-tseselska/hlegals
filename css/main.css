@@ -2534,7 +2534,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 7px 7px;
+  padding: 7px;
   margin-right: -4px;
 }
 
@@ -2675,7 +2675,7 @@ p {
   width: 79%;
 }
 
-.header-absolute {
+.header-dark-bg {
   position: absolute;
   top: 0;
   right: 0;

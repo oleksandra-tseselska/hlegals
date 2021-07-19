@@ -116,7 +116,6 @@
   align-items: center;
   padding-top: 10px;
   @include media-breakpoint-up(md) {
-    // flex-wrap: wrap;
     flex-direction: column;
     align-items: initial;
   }
@@ -153,7 +152,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 7px 7px;
+  padding: 7px;
   margin-right: -4px;
   &:active {
     background-color: $gray-bg-alt-color;
