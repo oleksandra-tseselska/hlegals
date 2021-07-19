@@ -3281,14 +3281,14 @@ a:hover {
 }
 
 .main-content-title {
-  font-size: 32px;
-  line-height: 1.1875;
-  font-weight: bold;
+  padding-bottom: 20px;
   color: transparent;
   background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   background-clip: text;
-  padding-bottom: 20px;
+  font-size: 32px;
+  line-height: 1.1875;
+  font-weight: bold;
 }
 
 @media (min-width: 1200px) {
@@ -3306,10 +3306,7 @@ a:hover {
 
 @media (min-width: 992px) {
   .main-content-title {
-    padding-top: 20px;
-    padding-right: 120px;
-    padding-bottom: 40px;
-    padding-left: 120px;
+    padding: 20px 120px 40px;
   }
 }
 
@@ -3331,10 +3328,10 @@ a:hover {
   .layout-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 10px;
             column-gap: 10px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
   }
 }
@@ -3345,8 +3342,8 @@ a:hover {
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
     padding-bottom: 40px;
+    gap: 40px;
   }
 }
 
@@ -3374,67 +3371,67 @@ a:hover {
 
 @media (min-width: 992px) {
   .grid-item-first {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
   }
 }
 
 @media (min-width: 992px) {
   .grid-item-second {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
   }
 }
 
 @media (min-width: 992px) {
   .grid-item-third {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
     grid-column: 3 / 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
   }
 }
 
 @media (min-width: 992px) {
   .grid-item-fourth {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
     grid-column: 3 / 4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
   }
 }
 
 @media (min-width: 992px) {
   .grid-item-fifth {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
   }
 }
 
 @media (min-width: 992px) {
   .grid-item-sixth {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2 / 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
   }
 }
 
@@ -3458,12 +3455,12 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 20px;
     margin-left: 0;
   }
@@ -3478,10 +3475,10 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 5px;
+  color: #323264;
   font-size: 18px;
   line-height: 1.16667;
   font-weight: 500;
-  color: #323264;
 }
 
 .link-text-name:hover {
@@ -3513,19 +3510,19 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  border-radius: 50px;
   width: 32px;
   height: 32px;
-  background-color: #f5f5fa;
-  border-radius: 50px;
-  color: #24a3ff;
   font-size: 12px;
-  margin-top: 10px;
+  color: #24a3ff;
+  background-color: #f5f5fa;
 }
 
 @media (min-width: 992px) {
