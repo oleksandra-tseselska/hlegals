@@ -21,6 +21,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-pro-bono:before {
+    content: "\e905";
+  }
+  .icon-clients:before {
+    content: "\e906";
+  }
+  .icon-experience:before {
+    content: "\e907";
+  }
   .icon-close:before {
     content: "\e903";
   }

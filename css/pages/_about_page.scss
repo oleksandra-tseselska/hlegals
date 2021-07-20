@@ -1,0 +1,123 @@
+.about-page-text-wrap {
+  @include media-breakpoint-up(md) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+}
+.about-page-title {
+  padding-bottom: 20px;
+  color: transparent;
+  background-image: $gradient-red-text-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+  @include hero-title;
+}
+.about-page-paragraph {
+  padding-bottom: 20px;
+  color: black;
+  @include paragraph;
+}
+.stats {
+  border-top: 4px solid $gray-separator-color;
+  padding-bottom: 30px;
+  @include media-breakpoint-up (md) {
+    position: relative;
+    border-top: none;
+    padding-bottom: 20px;
+  }
+}
+.stats-item {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 15px;
+  @include media-breakpoint-up (md) {
+    margin-left: -20px;
+    border-left: 4px solid $gray-separator-color;
+    padding-left: 20px;
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+}
+.stats-item-value {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 130px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: (42 / 36);
+  color: transparent;
+  background-image: $gradient-red-text-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.stats-item-icon {
+  padding-right: 10px;
+  font-size: 22px;
+  color: $accent-color;
+}
+.stats-item-desc {
+  padding-bottom: 5px;
+  color: $main-color;
+  @include h4;
+}
+.about-page-picture-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  height: 100%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 15px;
+  text-shadow: 0 15px 30px rgba(40, 40, 86, 0.8);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  background-image: url(../images/about/team.jpg);
+  background-size: cover;
+  @media (min-width: 360px) {
+    padding-left: 20px;
+    letter-spacing: 20px;
+  }
+  @include media-breakpoint-up (lg) {
+    margin-bottom: 0;
+  }
+  @include media-breakpoint-up (xl) {
+    margin-bottom: 80px;
+  }
+}
+.about-page-carousel {
+  background-color: $gray-bg-color;
+}
+.about-page-carousel-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: $main-color;
+  @include h3-caps;
+}
+.about-carousel-list {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+.about-carousel-list-item {
+  border-radius: 12px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  height: 57px;
+  text-align: center;
+  background-color: white;
+}
