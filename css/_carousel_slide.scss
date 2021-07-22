@@ -4,3 +4,23 @@
 //   height: 16px;
 //   background-color: $active-regular-color;
 // }
+.control-rewind-panel-list {
+  text-align: center;
+}
+.control-rewind-panel-list-item {
+  display: inline-flex;
+  padding-right: 15px;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+.control-rewind-colored {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: $active-regular-color;
+  opacity: 0.2;
+}
+.control-rewind-colored--active {
+  opacity: 1;
+}

@@ -1,0 +1,70 @@
+.publications-section {
+  border-bottom: 4px solid $gray-separator-color;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: $gray-bg-color;
+}
+.publications-title-link {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 3px;
+  color: $active-regular-color;
+  @include h3-caps(700);
+}
+.publications-icon {
+  padding-left: 6px;
+  font-size: 10px;
+}
+.publications-section-title {
+  padding-bottom: 20px;
+  color: transparent;
+  background: $gradient-red-text-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+  @include hero-title;
+}
+.publications-list {
+  display: grid;
+  gap: 20px;
+}
+.publications-list-item {
+  border-radius: 8px;
+  background-color: white;
+}
+.publications-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+.publications-link-text {
+  padding: 20px;
+}
+.publications-link-title {
+  padding-bottom: 10px;
+  color: $active-regular-color;
+  @include h4(500);
+}
+.publications-link-date {
+  color: $gray-text-color;
+  @include sub-link;
+}
+.publications-link-btn {
+  display: block;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  padding: 17px 81px;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  font-size: 14px;
+  line-height: (17 / 14);
+  color: white;
+  background-color: $active-regular-color;
+  &:hover {
+    background-color: $active-hover-color;
+  }
+  &:active {
+    background-color: $active-active-color;
+  }
+}
