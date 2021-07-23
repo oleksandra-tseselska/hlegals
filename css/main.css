@@ -3370,6 +3370,7 @@ a:hover {
 }
 
 .services-title {
+  padding-bottom: 40px;
   color: transparent;
   background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
@@ -3383,6 +3384,27 @@ a:hover {
   .services-title {
     font-size: 42px;
     line-height: 1.19048;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-list {
+    display: -ms-grid;
+    display: grid;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-list {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 70px;
+    row-gap: 20px;
   }
 }
 
@@ -3766,6 +3788,20 @@ a:hover {
   gap: 20px;
 }
 
+@media (min-width: 768px) {
+  .publications-list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .publications-list {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .publications-list-item {
   border-radius: 8px;
   background-color: white;
@@ -3796,6 +3832,18 @@ a:hover {
   font-weight: bold;
   line-height: 1.16667;
   letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+  .publications-link-pain-text {
+    display: block;
+    margin-top: 20px;
+    border-top: 4px solid #e6e6f0;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 1.375;
+    color: black;
+  }
 }
 
 .publications-link-btn {

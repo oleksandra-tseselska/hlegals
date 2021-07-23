@@ -26,6 +26,12 @@
 .publications-list {
   display: grid;
   gap: 20px;
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include media-breakpoint-up(xl) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 .publications-list-item {
   border-radius: 8px;
@@ -48,6 +54,17 @@
 .publications-link-date {
   color: $gray-text-color;
   @include sub-link;
+}
+.publications-link-pain-text {
+  @include media-breakpoint-up(md) {
+    display: block;
+    margin-top: 20px;
+    border-top: 4px solid $gray-separator-color;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: (22 / 16);
+    color: black;
+  }
 }
 .publications-link-btn {
   display: block;
