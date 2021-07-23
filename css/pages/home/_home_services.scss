@@ -67,13 +67,10 @@
   @include media-breakpoint-up(md) {
     display: grid;
     grid-template:
-      "cases-title cases-list cases-list" 60px
-      "cases-list cases-list cases-list" 193px
-      "cases-list cases-list cases-list" 193px / 1fr 1fr 1fr;
+      "cases-title cases-list cases-list cases-list cases-list" 60px
+      "cases-list cases-list cases-list cases-list cases-list" 193px
+      "cases-list cases-list cases-list cases-list cases-list" 193px / 3fr 1fr 3fr 1fr 4fr;
   }
-  // @include media-breakpoint-up(xl) {
-
-  // }
 }
 .home-cases-title {
   grid-area: cases-title;
@@ -87,9 +84,9 @@
   @include media-breakpoint-up(md) {
     display: grid;
     grid-template:
-      "cases-title second-case third-case" 60px
-      "first-case second-case third-case" 193px
-      "fourth-case fifth-case sixth-case" 193px / 1fr 1fr 1fr;
+      "cases-title cases-title second-case second-case third-case" 60px
+      "first-case first-case second-case second-case third-case" 193px
+      "fourth-case fifth-case fifth-case sixth-case sixth-case" 193px / 3fr 1fr 3fr 1fr 4fr;
   }
 }
 .first-case {
@@ -113,6 +110,11 @@
 .home-cases-list-item {
   border: 1px solid white;
   padding: 20px;
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }
 .home-cases-subtitle {
   padding-bottom: 10px;

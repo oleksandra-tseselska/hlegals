@@ -3479,7 +3479,7 @@ a:hover {
   .home-cases-section {
     display: -ms-grid;
     display: grid;
-    grid-template: "cases-title cases-list cases-list" 60px "cases-list cases-list cases-list" 193px "cases-list cases-list cases-list" 193px / 1fr 1fr 1fr;
+    grid-template: "cases-title cases-list cases-list cases-list cases-list" 60px "cases-list cases-list cases-list cases-list cases-list" 193px "cases-list cases-list cases-list cases-list cases-list" 193px / 3fr 1fr 3fr 1fr 4fr;
   }
 }
 
@@ -3503,7 +3503,7 @@ a:hover {
   .home-cases-list {
     display: -ms-grid;
     display: grid;
-    grid-template: "cases-title second-case third-case" 60px "first-case second-case third-case" 193px "fourth-case fifth-case sixth-case" 193px / 1fr 1fr 1fr;
+    grid-template: "cases-title cases-title second-case second-case third-case" 60px "first-case first-case second-case second-case third-case" 193px "fourth-case fifth-case fifth-case sixth-case sixth-case" 193px / 3fr 1fr 3fr 1fr 4fr;
   }
 }
 
@@ -3534,6 +3534,21 @@ a:hover {
 .home-cases-list-item {
   border: 1px solid white;
   padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .home-cases-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 
 .home-cases-subtitle {
