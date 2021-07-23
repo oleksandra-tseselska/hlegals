@@ -22,8 +22,18 @@
     display: none;
   }
 }
+.d-lg-none {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
 .d-md-block {
   @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+.d-lg-block {
+  @include media-breakpoint-up(lg) {
     display: block;
   }
 }
