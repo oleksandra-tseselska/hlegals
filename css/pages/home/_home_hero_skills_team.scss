@@ -33,24 +33,93 @@
   padding-top: 40px;
   background: $gradient-super-soft-color;
 }
-.skills-list-item-title {
+.home-skills-wrap {
+  align-items: center;
+}
+.skills-title-wrap {
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    display: grid;
+    justify-items: end;
+    row-gap: 20px;
+    &:after {
+      content: "";
+      position: absolute;
+      right: -20px;
+      border-right: 4px solid $gray-separator-color;
+      height: 100%;
+    }
+  }
+}
+.skills-title {
+  color: $gray-text-color;
+  @include hero-title
+  &:hover {
+    color: transparent;
+    background: $gradient-red-text-reversed-color;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+.skills-title-big {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: $gray-text-color;
+  @include hero-title
+  &:hover {
+    color: transparent;
+    background: $gradient-red-text-reversed-color;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+.skills-title--active {
   margin-right: 60%;
   padding-bottom: 10px;
   color: transparent;
   background: $gradient-red-text-reversed-color;
   -webkit-background-clip: text;
   background-clip: text;
-  @include h3-caps;
+  @include h3-caps(700);
+  @include media-breakpoint-up(lg) {
+    order: -1;
+    margin-right: 0;
+    padding-bottom: 0;
+    text-transform: none;
+    @include hero-title
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      right: -20px;
+      border-right: 4px solid $accent-color;
+      height: 20%;
+    }
+    &:hover {
+      color: transparent;
+      background: $gradient-red-text-reversed-color;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
 }
-.skills-list-item-subtitle {
+.skills-subtitle {
   padding-bottom: 15px;
   color: white;
   @include h2(500);
+  @include media-breakpoint-up(lg) {
+    padding-left: 40px;
+  }
 }
-.skills-list-item-text {
+.skills-text {
   padding-bottom: 20px;
   color: white;
   @include paragraph;
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 0;
+    padding-left: 40px;
+  }
 }
 .home-team-section {
   margin-bottom: 15px;
