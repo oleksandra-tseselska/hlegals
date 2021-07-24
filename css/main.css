@@ -2998,15 +2998,14 @@ a:hover {
 @media (min-width: 992px) {
   .home-hero-section-title {
     padding-right: 50px;
+    padding-bottom: 245px;
     padding-left: 50px;
   }
 }
 
 @media (min-width: 1440px) {
   .home-hero-section-title {
-    padding-top: 358px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 358px 150px 290px;
   }
 }
 

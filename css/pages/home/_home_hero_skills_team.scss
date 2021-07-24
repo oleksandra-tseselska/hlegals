@@ -21,12 +21,11 @@
   }
   @include media-breakpoint-up(lg) {
     padding-right: 50px;
+    padding-bottom: 245px;
     padding-left: 50px;
   }
   @include media-breakpoint-up(xxl) {
-    padding-top: 358px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 358px 150px 290px;
   }
 }
 .home-hero-section-btn {
