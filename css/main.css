@@ -3097,6 +3097,7 @@ a:hover {
 }
 
 .about-page-carousel {
+  padding-bottom: 30px;
   background-color: #f5f5fa;
 }
 
@@ -3141,6 +3142,11 @@ a:hover {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+}
+
+.decor-element {
+  border-bottom: 4px solid #e6e6f0;
+  background-color: #f5f5fa;
 }
 
 .contacts-section {
