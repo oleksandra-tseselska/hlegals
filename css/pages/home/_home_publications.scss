@@ -22,6 +22,9 @@
   padding-bottom: 3px;
   color: $active-regular-color;
   @include h3-caps(700);
+  &:hover {
+    color: $accent-color;
+  }
 }
 .publications-icon {
   padding-left: 6px;

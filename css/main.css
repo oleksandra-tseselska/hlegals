@@ -2959,6 +2959,10 @@ a:hover {
   opacity: 0.2;
 }
 
+.control-rewind-colored:hover {
+  opacity: 0.6;
+}
+
 .control-rewind-colored--active {
   opacity: 1;
 }
@@ -3139,6 +3143,13 @@ a:hover {
   font-weight: 700;
 }
 
+.skills-title--active:hover {
+  color: transparent;
+  background: linear-gradient(270.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 @media (min-width: 992px) {
   .skills-title--active {
     -webkit-box-ordinal-group: 0;
@@ -3251,6 +3262,10 @@ a:hover {
   font-weight: 700;
 }
 
+.team-title-link:hover {
+  color: #f0145a;
+}
+
 @media (min-width: 992px) {
   .team-title-link {
     padding-left: 40px;
@@ -3357,6 +3372,10 @@ a:hover {
   line-height: 1.21429;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.services-title-link:hover {
+  color: white;
 }
 
 .services-icon-arrow-right {
@@ -3529,6 +3548,10 @@ a:hover {
 .home-cases-list-item {
   border: 1px solid white;
   padding: 20px;
+}
+
+.home-cases-list-item:hover {
+  background-color: #ededf7;
 }
 
 @media (min-width: 768px) {
@@ -3828,6 +3851,10 @@ a:hover {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.publications-title-link:hover {
+  color: #f0145a;
 }
 
 .publications-icon {

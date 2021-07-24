@@ -5,6 +5,9 @@
   color: white;
   opacity: 0.5;
   @include h3-caps;
+  &:hover {
+    color: white;
+  }
 }
 .services-icon-arrow-right {
   padding-left: 6px;
@@ -110,6 +113,9 @@
 .home-cases-list-item {
   border: 1px solid white;
   padding: 20px;
+  &:hover {
+    background-color: $gray-bg-alt-color;
+    }
   @include media-breakpoint-up(md) {
     display: flex;
     flex-direction: column;
