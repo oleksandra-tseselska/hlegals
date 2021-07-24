@@ -3012,9 +3012,33 @@ a:hover {
 }
 
 .home-skills-services-section {
-  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 0 0 12px 12px;
   padding-top: 40px;
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
+}
+
+.home-skills-services-section:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  border-radius: 0 0 12px 12px;
+  height: 10px;
+  background-color: #cacadb;
+}
+
+.home-skills-services-section:before {
+  content: "";
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: -20px;
+  z-index: 2;
+  border-radius: 0 0 12px 12px;
+  height: 10px;
+  background-color: #e7e7f2;
 }
 
 .home-skills-wrap {
