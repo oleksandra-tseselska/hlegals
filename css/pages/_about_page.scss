@@ -112,12 +112,18 @@
   column-gap: 20px;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 20px;
+  @include media-breakpoint-up (xl) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 .about-carousel-list-item {
   border-radius: 12px;
   padding-top: 13px;
   padding-bottom: 13px;
-  height: 57px;
   text-align: center;
   background-color: white;
+  @include media-breakpoint-up (md) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
