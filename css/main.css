@@ -3816,7 +3816,6 @@ a:hover {
 
 .publications-section {
   position: relative;
-  border-bottom: 4px solid #e6e6f0;
   padding-top: 20px;
   padding-bottom: 40px;
   background-color: #f5f5fa;
@@ -3978,6 +3977,10 @@ a:hover {
     bottom: 40px;
     z-index: 2;
   }
+}
+
+.decor-element {
+  border-bottom: 4px solid #e6e6f0;
 }
 
 @media (min-width: 768px) {

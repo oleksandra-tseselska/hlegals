@@ -1,6 +1,5 @@
 .publications-section {
   position: relative;
-  border-bottom: 4px solid $gray-separator-color;
   padding-top: 20px;
   padding-bottom: 40px;
   background-color: $gray-bg-color;
@@ -107,4 +106,7 @@
     bottom: 40px;
     z-index: 2;
   }
+}
+.decor-element {
+  border-bottom: 4px solid $gray-separator-color;
 }
