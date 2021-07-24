@@ -91,8 +91,8 @@
     &:after {
       content: "";
       position: absolute;
-      z-index: 2;
       right: -20px;
+      z-index: 2;
       border-right: 4px solid $accent-color;
       height: 20%;
     }
