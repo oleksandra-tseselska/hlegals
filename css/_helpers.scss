@@ -47,6 +47,12 @@
     order: -1;
   }
 }
+.m-btm-20 {
+  margin-bottom: 20px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 40px;
+  }
+}
 .main-color {
   color: $main-color;
 } 

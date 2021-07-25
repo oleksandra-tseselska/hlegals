@@ -39,7 +39,7 @@
 }
 .publications-list {
   display: grid;
-  gap: 20px;
+  column-gap: 20px;
   @include media-breakpoint-up(md) {
     grid-template-columns: 1fr 1fr;
   }

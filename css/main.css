@@ -2338,6 +2338,16 @@ a:hover {
   }
 }
 
+.m-btm-20 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .m-btm-20 {
+    margin-bottom: 40px;
+  }
+}
+
 .main-color {
   color: #323264;
 }
@@ -3882,7 +3892,8 @@ a:hover {
 .publications-list {
   display: -ms-grid;
   display: grid;
-  gap: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
 }
 
 @media (min-width: 768px) {

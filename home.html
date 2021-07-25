@@ -7,6 +7,7 @@
   <meta name="description" content="Перевертаємо уявлення про юридичні послуги">
   <title>Hlegals</title>
   <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/masonry_publications.js"></script>
 </head>
 <body>
   <header class="header header-absolute">
@@ -702,132 +703,163 @@
           Нам є що розповісти
         </h2>
         <ul class="publications-list">
-          <li class="publications-list-item">
-            <a 
-              href="#"
-              >
-                <div class="publications-link-text">
-                  <h4 class="publications-link-title">
-                    Валютний контроль помер, 
-                    хай живе валютний контроль!
-                  </h4>
-                  <span class="publications-link-date">
-                    14 червня
-                  </span>
-                  <div class="d-none publications-link-pain-text">
-                    <p>
-                      Експерти проводять конференції, 
-                      круглі столи та іншого штибу заходи 
-                      на тему «лібералізація валютного законодавства». 
-                      Юристи-експерти-новелісти 
-                      стирають пальці об «ctrl+c/ctrl+v».
-                    </p>
+          <div class="grid-sizer">
+            <li class="publications-list-item m-btm-20">
+              <a 
+                href="#"
+                >
+                  <div class="publications-link-text">
+                    <h4 class="publications-link-title">
+                      Валютний контроль помер, 
+                      хай живе валютний контроль!
+                    </h4>
+                    <span class="publications-link-date">
+                      14 червня
+                    </span>
+                    <div class="d-none publications-link-pain-text">
+                      <p>
+                        Експерти проводять конференції, 
+                        круглі столи та іншого штибу заходи 
+                        на тему «лібералізація валютного законодавства». 
+                        Юристи-експерти-новелісти 
+                        стирають пальці об «ctrl+c/ctrl+v».
+                      </p>
+                    </div>
                   </div>
-                </div>
-            </a>
-          </li>
-          <li class="publications-list-item">
-            <a 
-              href="#"
-              >
-                <img 
-                  class="publications-image"
-                  src="./images/publications/equity_associate.jpg" 
-                  alt="фотокартка лекції"
+              </a>
+            </li>
+            <li class="publications-list-item d-none d-md-block">
+              <a 
+                href="#"
                 >
-                <div class="publications-link-text">
-                  <h4 class="publications-link-title">
-                    Equity associate
-                  </h4>
-                  <span class="publications-link-date">
-                    22 квітня
-                  </span>
-                  <div class="d-none publications-link-pain-text">
-                    <p>
-                      На проектах я джун. 
-                      При цьому я співвласник юридичної фірми. 
-                      Як це відбулося. 
-                      Перед вступом батьки мені казали, що якщо буду…
-                    </p>
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/millennial.jpg" 
+                    alt="селфі міленіалів"
+                  >
+                  <div class="publications-link-text">
+                    <h4 class="publications-link-title">
+                      Заповіт міленіала
+                    </h4>
+                    <span class="publications-link-date">
+                      19 серпня
+                    </span>
+                    <div class="d-none publications-link-pain-text">
+                      <p>
+                        Що і як передаватимуть у спадщину сучасні
+                        влогери, опініон лідери і криптомільйонери
+                      </p>
+                    </div>
                   </div>
-                </div>
-            </a>
-          </li>
-          <li class="publications-list-item d-none d-xl-block">
-            <a 
-              href="#"
-              >
-                <img 
-                  class="publications-image"
-                  src="./images/publications/gdpr.jpg" 
-                  alt="gdpr"
+              </a>
+            </li>
+          </div>
+          <div class="grid-sizer">
+            <li class="publications-list-item m-btm-20">
+              <a 
+                href="#"
                 >
-                <div class="publications-link-text">
-                  <h4 class="publications-link-title">
-                    Штраф для «Корпорації добра»: 
-                    що буде з Google та іншими за порушення GDPR
-                  </h4>
-                  <span class="publications-link-date">
-                    29 вересня
-                  </span>
-                  <div class="d-none publications-link-pain-text">
-                    <p>
-                      І чому стягнення у 50 млн євро 
-                      може стати доленосним прецедентом 
-                      За матеріалами Mind.ua 21 січня 
-                      Національна комісія із захисту даних.
-                    </p>
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/equity_associate.jpg" 
+                    alt="фотокартка лекції"
+                  >
+                  <div class="publications-link-text">
+                    <h4 class="publications-link-title">
+                      Equity associate
+                    </h4>
+                    <span class="publications-link-date">
+                      22 квітня
+                    </span>
+                    <div class="d-none publications-link-pain-text">
+                      <p>
+                        На проектах я джун. 
+                        При цьому я співвласник юридичної фірми. 
+                        Як це відбулося. 
+                        Перед вступом батьки мені казали, що якщо буду…
+                      </p>
+                    </div>
                   </div>
-                </div>
-            </a>
-          </li>
-          <li class="publications-list-item">
-            <a 
-              href="#"
-              >
-                <img 
-                  class="publications-image"
-                  src="./images/publications/millennial.jpg" 
-                  alt="селфі міленіалів"
+              </a>
+            </li>
+            <li class="publications-list-item d-md-none">
+              <a 
+                href="#"
                 >
-                <div class="publications-link-text">
-                  <h4 class="publications-link-title">
-                    Заповіт міленіала
-                  </h4>
-                  <span class="publications-link-date">
-                    19 серпня
-                  </span>
-                  <div class="d-none publications-link-pain-text">
-                    <p>
-                      Що і як передаватимуть у спадщину сучасні
-                      влогери, опініон лідери і криптомільйонери
-                    </p>
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/millennial.jpg" 
+                    alt="селфі міленіалів"
+                  >
+                  <div class="publications-link-text">
+                    <h4 class="publications-link-title">
+                      Заповіт міленіала
+                    </h4>
+                    <span class="publications-link-date">
+                      19 серпня
+                    </span>
+                    <div class="d-none publications-link-pain-text">
+                      <p>
+                        Що і як передаватимуть у спадщину сучасні
+                        влогери, опініон лідери і криптомільйонери
+                      </p>
+                    </div>
                   </div>
-                </div>
-            </a>
-          </li>
-          <li class="publications-list-item d-none d-md-block">
-            <a 
-              href="#"
-              >
-                <img 
-                  class="publications-image"
-                  src="./images/publications/kiev.jpg" 
-                  alt="Київ"
+              </a>
+            </li>
+            <li class="publications-list-item d-none d-md-block">
+              <a 
+                href="#"
                 >
-            </a>
-          </li>
-          <li class="publications-list-item d-none d-xl-block">
-            <a 
-              href="#"
-              >
-                <img 
-                  class="publications-image"
-                  src="./images/publications/child_and_guitar.jpg" 
-                  alt="дитина з гетарою"
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/kiev.jpg" 
+                    alt="Київ"
+                  >
+              </a>
+            </li>
+          </div>
+          <div class="grid-sizer">
+            <li class="publications-list-item d-none d-xl-block m-btm-20">
+              <a 
+                href="#"
                 >
-            </a>
-          </li>
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/gdpr.jpg" 
+                    alt="gdpr"
+                  >
+                  <div class="publications-link-text">
+                    <h4 class="publications-link-title">
+                      Штраф для «Корпорації добра»: 
+                      що буде з Google та іншими за порушення GDPR
+                    </h4>
+                    <span class="publications-link-date">
+                      29 вересня
+                    </span>
+                    <div class="d-none publications-link-pain-text">
+                      <p>
+                        І чому стягнення у 50 млн євро 
+                        може стати доленосним прецедентом 
+                        За матеріалами Mind.ua 21 січня 
+                        Національна комісія із захисту даних.
+                      </p>
+                    </div>
+                  </div>
+              </a>
+            </li>
+            <li class="publications-list-item d-none d-xl-block">
+              <a 
+                href="#"
+                >
+                  <img 
+                    class="publications-image"
+                    src="./images/publications/child_and_guitar.jpg" 
+                    alt="дитина з гетарою"
+                  >
+              </a>
+            </li>
+          </div>
         </ul>
         <button 
           class="publications-link-btn"
@@ -913,6 +945,7 @@
       </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./masonry.pkgd.min.js"></script>
   <script src="./bootstrap/js/dist/util.js"></script>
   <script src="./bootstrap/js/dist/modal.js"></script>
 </body>
