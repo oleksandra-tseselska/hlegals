@@ -27,6 +27,11 @@
     display: none;
   }
 }
+.d-xl-none {
+  @include media-breakpoint-up(xl) {
+    display: none;
+  }
+}
 .d-md-block {
   @include media-breakpoint-up(md) {
     display: block;
