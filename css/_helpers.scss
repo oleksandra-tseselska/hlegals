@@ -1,6 +1,16 @@
 .d-flex {
   display: flex;
 }
+.d-md-flex {
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
+}
+.align-items-center-md {
+  @include media-breakpoint-up(md) {
+    align-items: center;
+  }
+}
 .justify-content-end {
   justify-content: flex-end;
 }

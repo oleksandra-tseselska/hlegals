@@ -10,7 +10,6 @@
   padding: 5px 6px;
   &:hover {
     color: white;
-    text-decoration: none;
   }
   @include media-breakpoint-up(md) {
     &:hover{
@@ -51,7 +50,6 @@
   padding: 7px 3px;
   &:hover{
     color: white;
-    text-decoration: none;
   }
   @include media-breakpoint-up(xl) {
     padding: 10px 5px;
@@ -82,7 +80,6 @@
   transition-duration: 0.3s;
   &:hover {
     color: $accent-color;
-    text-decoration: none;
   }
 }
 .desktop-nav__link-dark-bg--active {

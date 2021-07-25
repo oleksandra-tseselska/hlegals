@@ -218,7 +218,103 @@
     </div>
   </header>
   <main>
-
+    <div class="container contacts-section">
+      <div class="row align-items-center-md">
+        <div class="col col-md-5 offset-xl-1 col-xl-4">
+          <div class="contacts-section__info">
+            <span class="contacts-section__info-town">
+              Одеса, 
+            </span>
+            <span class="contacts-section__info-street">
+              Адміральський пр., 3
+            </span>
+            <a 
+              class="contacts-section__info-tel"
+              href="tel:+380503901591"
+              >
+                +38&#160;(050)&#160;390&#160;15&#160;91
+            </a>
+            <a
+              class="contacts-section__info-email"
+              href="mailto:contact@hlegals.net"
+              >
+                contact@hlegals.net
+            </a>
+            <span class="border"></span>
+            <a 
+              class="contacts-section__info-social"
+              href="https://www.facebook.com/"
+              target="_blank"
+              >
+                <span class="icon-facebook social-icon"></span>
+                <span class="social-text">
+                  <span>Наша&#160;сторінка</span> 
+                  <span>в&#160;фейсбуці</span>
+                </span>
+            </a>
+          </div>
+        </div>
+        <div class="col col-12 col-md-7 col-lg-6 offset-lg-1 col-xxl-5">
+          <section class="contacts-section__form">
+            <h2 class="contacts-section__form-title">
+              Ми хотіли б Вам допомогти
+            </h2>
+            <form>
+              <input 
+                class="contacts-section__form-user-name"
+                name="user_name" 
+                type="text" 
+                placeholder="Iм’я" 
+                autocomplete="on"
+                aria-label="Ваше им'я"
+              >
+              <textarea
+                class="contacts-section__form-user-message"
+                name="message"
+                placeholder="Повідомлення"
+                autocomplete="off"
+                aria-label="Ваше повідомлення"
+              ></textarea>
+              <h3 class="contacts-section__form-text">
+                Як вам відповісти?
+              </h3>
+              <input 
+                class="contacts-section__form-user-phone"
+                type="tel"
+                name="user_phone" 
+                placeholder="Номер телефона" 
+                required
+                autocomplete="on"
+                aria-label="Ваш номер телефона"
+              >
+              <input 
+                class="contacts-section__form-user-email"
+                type="email"
+                name="user_email" 
+                placeholder="Чи email" 
+                required
+                autocomplete="on"
+                aria-label="Ваш email"
+              >
+              <button 
+                class="contacts-section__form-send-btn"
+                type="submit"
+                >
+                  Надіслати запит
+              </button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <iframe 
+      class="contacts-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d87988.43092540886!2d30.74013!3d46.436045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63396894457b7%3A0x7f6c5236cbcb70c8!2z0JDQtNC80LjRgNCw0LvRjNGB0LrQuNC5INC_0YDQvtGB0L8uLCAzLCDQntC00LXRgdGB0LAsINCe0LTQtdGB0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1sru!2sua!4v1626361833426!5m2!1sru!2sua"  
+      height="600" 
+      allowfullscreen 
+      loading="lazy"
+      >
+    </iframe>
   </main>
   <footer>
 
@@ -297,5 +393,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./bootstrap/js/dist/util.js"></script>
   <script src="./bootstrap/js/dist/modal.js"></script>
+  <script src="https://febasic.github.io/js/form.js"></script>
 </body>
 </html>

@@ -29,3 +29,14 @@ h6,
 p {
   margin-bottom: 0;
 }
+input {
+  width: 100%;
+  border: none;
+}
+textarea {
+  border: none;
+  resize: none;
+}
+a:hover {
+  text-decoration: none;
+}

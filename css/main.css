@@ -2172,6 +2172,20 @@ p {
   margin-bottom: 0;
 }
 
+input {
+  width: 100%;
+  border: none;
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.woff?w9mhwa") format("woff");
@@ -2214,6 +2228,22 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .d-md-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .align-items-center-md {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .justify-content-end {
@@ -2365,7 +2395,6 @@ p {
 
 .toggle-lang__link:hover {
   color: #b3b3ba;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -2419,7 +2448,6 @@ p {
 
 .header-phone:hover {
   color: #b3b3ba;
-  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
@@ -2430,10 +2458,6 @@ p {
 
 .facebook-link {
   padding: 7px 0 7px 5px;
-}
-
-.facebook-link:hover {
-  text-decoration: none;
 }
 
 .header-icon-facebook {
@@ -2612,7 +2636,6 @@ p {
 
 .desktop-nav__link:hover {
   color: #f0145a;
-  text-decoration: none;
 }
 
 @media (min-width: 992px) {
@@ -2694,7 +2717,6 @@ p {
 
 .toggle-lang__link-dark-bg:hover {
   color: white;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -2748,7 +2770,6 @@ p {
 
 .header-phone-dark-bg:hover {
   color: white;
-  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
@@ -2794,7 +2815,6 @@ p {
 
 .desktop-nav__link-dark-bg:hover {
   color: #f0145a;
-  text-decoration: none;
 }
 
 .desktop-nav__link-dark-bg--active {
@@ -2862,11 +2882,221 @@ p {
 
 .home-hero-section {
   height: 500px;
-  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7a425e 87.53%);
+}
+
+.contacts-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  .contacts-section {
+    margin-bottom: 80px;
+  }
+}
+
+.contacts-section__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-section__info-town {
+  padding-top: 10px;
+  color: #323264;
+  font-size: 21px;
+  line-height: 1.42857;
+  font-weight: 500;
+}
+
+.contacts-section__info-street {
+  border-bottom: 4px solid #e6e6f0;
+  padding-bottom: 20px;
+  color: #323264;
+  font-size: 21px;
+  line-height: 1.42857;
+}
+
+.contacts-section__info-tel {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #323264;
+  font-size: 21px;
+  line-height: 1.42857;
+}
+
+.contacts-section__info-tel:hover {
+  color: #323264;
+}
+
+.contacts-section__info-email {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #24a3ff;
+  font-size: 21px;
+  line-height: 1.42857;
+}
+
+.contacts-section__info-email:hover {
+  color: #f0145a;
+}
+
+.border {
+  border-bottom: 4px solid #e6e6f0;
+}
+
+.contacts-section__info-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #24a3ff;
+}
+
+.contacts-section__info-social:hover {
+  color: #f0145a;
+}
+
+.social-icon {
+  font-size: 38px;
+}
+
+.social-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contacts-section__form {
+  margin-right: -20px;
+  margin-bottom: 40px;
+  margin-left: -20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #f5f5fa;
+}
+
+@media (min-width: 576px) {
+  .contacts-section__form {
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts-section__form {
+    margin-bottom: 0;
+  }
+}
+
+.contacts-section__form-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #f0145a;
+  font-size: 22px;
+  line-height: 1.18182;
+}
+
+@media (min-width: 1200px) {
+  .contacts-section__form-title {
+    font-size: 32px;
+    line-height: 1.1875;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contacts-section__form-title {
+    color: transparent;
+    background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+.contacts-section__form-user-message,
+.contacts-section__form-user-name,
+.contacts-section__form-user-email {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.44444;
+}
+
+.contacts-section__form-text {
+  padding-bottom: 20px;
+  color: #b3b3ba;
+  font-size: 14px;
+  line-height: 1.21429;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contacts-section__form-user-phone {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.44444;
+}
+
+.contacts-section__form-send-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  padding: 16px 73px;
+  -webkit-box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  background-color: #24a3ff;
+}
+
+.contacts-section__form-send-btn:hover {
+  background-color: #0085ff;
+}
+
+.contacts-section__form-send-btn:active {
+  background-color: #006ccf;
+}
+
+.contacts-iframe {
+  border: none;
+  width: 100%;
+  height: 600px;
 }
 
 .services-hero-section {
   height: 500px;
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
 }
 /*# sourceMappingURL=main.css.map */
