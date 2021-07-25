@@ -25,11 +25,11 @@
   @include media-breakpoint-up(md) {
     display: grid;
     column-gap: 40px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 40px;
   }
   @include media-breakpoint-up(xl) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 70px;
     row-gap: 20px;
   }
@@ -139,12 +139,12 @@
 }
 .home-clients-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   @include media-breakpoint-up(md) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
   @include media-breakpoint-up(xl) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .home-clients-img-wrap {

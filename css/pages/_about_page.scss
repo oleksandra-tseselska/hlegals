@@ -117,10 +117,10 @@
 .about-carousel-list {
   display: grid;
   column-gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   padding-bottom: 20px;
   @include media-breakpoint-up (xl) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .about-carousel-list-item {

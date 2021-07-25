@@ -41,10 +41,10 @@
   display: grid;
   column-gap: 20px;
   @include media-breakpoint-up(md) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   @include media-breakpoint-up(xl) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .publications-list-item {
@@ -70,7 +70,7 @@
   color: $gray-text-color;
   @include sub-link;
 }
-.publications-link-pain-text {
+.publications-link-plain-text {
   @include media-breakpoint-up(md) {
     display: block;
     margin-top: 20px;

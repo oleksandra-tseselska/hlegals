@@ -2344,12 +2344,12 @@ a:hover {
   }
 }
 
-.m-btm-20 {
+.mb-20-xl-40 {
   margin-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
-  .m-btm-20 {
+  .mb-20-xl-40 {
     margin-bottom: 40px;
   }
 }
@@ -3423,16 +3423,16 @@ a:hover {
     display: grid;
     -webkit-column-gap: 40px;
             column-gap: 40px;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     padding-bottom: 40px;
   }
 }
 
 @media (min-width: 1200px) {
   .services-list {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
     padding-bottom: 70px;
     row-gap: 20px;
   }
@@ -3619,21 +3619,21 @@ a:hover {
 .home-clients-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 @media (min-width: 768px) {
   .home-clients-grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
   .home-clients-grid {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -3904,15 +3904,15 @@ a:hover {
 
 @media (min-width: 768px) {
   .publications-list {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
   .publications-list {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -3952,7 +3952,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .publications-link-pain-text {
+  .publications-link-plain-text {
     display: block;
     margin-top: 20px;
     border-top: 4px solid #e6e6f0;
@@ -4189,15 +4189,15 @@ a:hover {
   display: grid;
   -webkit-column-gap: 20px;
           column-gap: 20px;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   padding-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
   .about-carousel-list {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
   }
 }
 
