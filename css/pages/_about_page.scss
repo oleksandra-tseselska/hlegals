@@ -76,7 +76,7 @@
   justify-content: center;
   margin-bottom: 20px;
   padding-left: 15px;
-  height: 100%;
+  min-height: 290px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -85,7 +85,8 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
   background-image: url(../images/about/team.jpg);
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   @media (min-width: 360px) {
     padding-left: 20px;
     letter-spacing: 20px;
@@ -95,6 +96,11 @@
   }
   @include media-breakpoint-up (xl) {
     margin-bottom: 80px;
+    min-height: 438px;
+    font-size: 96px;
+    line-height: (113 / 96);
+    letter-spacing: 63px;
+    background-image: url(../images/about/team_desktop.jpg);
   }
 }
 .about-page-carousel {

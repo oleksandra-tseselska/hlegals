@@ -3065,7 +3065,7 @@ a:hover {
           justify-content: center;
   margin-bottom: 20px;
   padding-left: 15px;
-  height: 100%;
+  min-height: 290px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -3074,7 +3074,8 @@ a:hover {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
   background-image: url(../images/about/team.jpg);
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 360px) {
@@ -3093,6 +3094,11 @@ a:hover {
 @media (min-width: 1200px) {
   .about-page-picture-team {
     margin-bottom: 80px;
+    min-height: 438px;
+    font-size: 96px;
+    line-height: 1.17708;
+    letter-spacing: 63px;
+    background-image: url(../images/about/team_desktop.jpg);
   }
 }
 
