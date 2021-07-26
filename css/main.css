@@ -2208,6 +2208,46 @@ a:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-judicial-representation:before {
+  content: "\e909";
+}
+
+.icon-security:before {
+  content: "\e90a";
+}
+
+.icon-collaborative:before {
+  content: "\e90b";
+}
+
+.icon-structuring:before {
+  content: "\e90c";
+}
+
+.icon-legal-support:before {
+  content: "\e90d";
+}
+
+.icon-it-and-commerce:before {
+  content: "\e90e";
+}
+
+.icon-pro-bono:before {
+  content: "\e905";
+}
+
+.icon-clients:before {
+  content: "\e906";
+}
+
+.icon-experience:before {
+  content: "\e907";
+}
+
+.icon-arrow-down:before {
+  content: "\e908";
+}
+
 .icon-arrow-right:before {
   content: "\e904";
 }
