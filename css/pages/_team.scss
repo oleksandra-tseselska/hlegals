@@ -24,12 +24,11 @@
   @include media-breakpoint-up(md) {
     display: grid;
     column-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 20px;
   }
   @include media-breakpoint-up(lg) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 40px;
     gap: 40px;
   }

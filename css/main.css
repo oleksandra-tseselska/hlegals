@@ -3330,18 +3330,16 @@ a:hover {
     display: grid;
     -webkit-column-gap: 10px;
             column-gap: 10px;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     padding-bottom: 20px;
   }
 }
 
 @media (min-width: 992px) {
   .layout-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
     padding-bottom: 40px;
     gap: 40px;
   }
