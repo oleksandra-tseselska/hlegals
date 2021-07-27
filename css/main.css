@@ -2772,6 +2772,7 @@ a:hover {
 
 .header-dark-bg {
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   left: 0;
