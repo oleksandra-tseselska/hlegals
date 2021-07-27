@@ -47,6 +47,11 @@
     display: block;
   }
 }
+.d-xl-inline-block {
+  @include media-breakpoint-up(xl) {
+    display: inline-block;
+  }
+}
 .order-1 {
   @include media-breakpoint-up(xl) {
     order: -1;
