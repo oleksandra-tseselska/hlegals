@@ -22,8 +22,23 @@
     display: none;
   }
 }
+.d-lg-none {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+.d-xl-none {
+  @include media-breakpoint-up(xl) {
+    display: none;
+  }
+}
 .d-md-block {
   @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+.d-lg-block {
+  @include media-breakpoint-up(lg) {
     display: block;
   }
 }
@@ -40,6 +55,12 @@
 .order-1 {
   @include media-breakpoint-up(xl) {
     order: -1;
+  }
+}
+.mb-20-xl-40 {
+  margin-bottom: 20px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 40px;
   }
 }
 .main-color {
