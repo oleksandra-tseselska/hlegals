@@ -61,6 +61,8 @@
   flex-direction: column;
   margin-bottom: 5px;
   color: $main-color;
+  transition-property: color;
+  transition-duration: 0.2s;
   @include h4(500);
   &:hover {
     color: $accent-color;

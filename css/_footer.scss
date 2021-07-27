@@ -76,6 +76,8 @@
 .footer-nav__link-map {
   padding: 10px;
   color: $active-regular-color;
+  transition-property: color;
+  transition-duration: 0.3s;
   @include spacing-link;
   &:hover {
     color: $accent-color;
@@ -85,6 +87,8 @@
   padding: 10px;
   font-size: 38px;
   color: $active-regular-color;
+  transition-property: color;
+  transition-duration: 0.3s;
   &:hover {
     color: $accent-color;
   }
@@ -103,6 +107,8 @@
 .footer-nav__item-email {
   padding: 10px;
   color: $active-regular-color;
+  transition-property: color;
+  transition-duration: 0.3s;
   @include link(700);
   &:hover {
     color: $accent-color;

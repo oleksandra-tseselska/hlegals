@@ -93,6 +93,8 @@
   line-height: (17 / 14);
   color: white;
   background-color: $active-regular-color;
+  transition-property: background-color;
+  transition-duration: 0.3s;
   &:hover {
     background-color: $active-hover-color;
   }

@@ -3025,6 +3025,10 @@ a:hover {
 .footer-nav__link-map {
   padding: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 12px;
   font-weight: bold;
   line-height: 1.16667;
@@ -3040,6 +3044,10 @@ a:hover {
   padding: 10px;
   font-size: 38px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .footer-nav__link-facebook:hover {
@@ -3067,6 +3075,10 @@ a:hover {
 .footer-nav__item-email {
   padding: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 16px;
   line-height: 1.1875;
   font-weight: 700;
@@ -3271,6 +3283,10 @@ a:hover {
 
 .skills-title {
   color: #b3b3ba;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 32px;
   line-height: 1.1875;
   font-weight: bold;
@@ -3302,6 +3318,10 @@ a:hover {
       -ms-flex-align: end;
           align-items: flex-end;
   color: #b3b3ba;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
   font-size: 32px;
   line-height: 1.1875;
   font-weight: bold;
@@ -4152,6 +4172,10 @@ a:hover {
   line-height: 1.21429;
   color: white;
   background-color: #24a3ff;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .publications-link-btn:hover {
@@ -4340,7 +4364,7 @@ a:hover {
     font-size: 96px;
     line-height: 1.17708;
     letter-spacing: 63px;
-    background-image: url(../images/about/team_desktop.jpg);
+    background-image: url(../images/about/team_desktop_1x.jpg);
   }
 }
 
@@ -4451,6 +4475,10 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 21px;
   line-height: 1.42857;
 }
@@ -4475,6 +4503,10 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .contacts-section__info-social:hover {
@@ -4594,6 +4626,10 @@ a:hover {
   line-height: 17px;
   color: white;
   background-color: #24a3ff;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .contacts-section__form-send-btn:hover {
@@ -4746,6 +4782,10 @@ a:hover {
           flex-direction: column;
   margin-bottom: 5px;
   color: #323264;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
   font-size: 18px;
   line-height: 1.16667;
   font-weight: 500;

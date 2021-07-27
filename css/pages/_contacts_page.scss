@@ -35,6 +35,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: $active-regular-color;
+  transition-property: color;
+  transition-duration: 0.3s;
   @include pain-text;
   &:hover {
     color: $accent-color;
@@ -51,6 +53,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: $active-regular-color;
+  transition-property: color;
+  transition-duration: 0.3s;
   &:hover {
     color: $accent-color;
   }
@@ -128,6 +132,8 @@
   line-height: 17px;
   color: white;
   background-color: $active-regular-color;
+  transition-property: background-color;
+  transition-duration: 0.3s;
   &:hover {
     background-color: $active-hover-color;
   }
