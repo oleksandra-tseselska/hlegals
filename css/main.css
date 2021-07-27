@@ -4029,14 +4029,10 @@ a:hover {
 .publications-section {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 40px;
   background-color: #f5f5fa;
 }
 
 @media (min-width: 768px) {
-  .publications-section {
-    padding-bottom: 0;
-  }
   .publications-section:after {
     content: "";
     position: absolute;
@@ -4198,6 +4194,13 @@ a:hover {
 
 .home-decor-element {
   border-bottom: 4px solid #e6e6f0;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .home-decor-element {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 768px) {

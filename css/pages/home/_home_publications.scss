@@ -1,10 +1,8 @@
 .publications-section {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 40px;
   background-color: $gray-bg-color;
   @include media-breakpoint-up(md) {
-    padding-bottom: 0;
     &:after {
       content: "";
       position: absolute;
@@ -111,4 +109,8 @@
 }
 .home-decor-element {
   border-bottom: 4px solid $gray-separator-color;
+  padding-top: 40px;
+  @include media-breakpoint-up(md) {
+    padding-top: 0;
+  }
 }
