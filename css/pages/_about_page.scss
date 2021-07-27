@@ -104,7 +104,6 @@
   }
 }
 .about-page-carousel {
-  padding-bottom: 30px;
   background-color: $gray-bg-color;
 }
 .about-page-carousel-title {
@@ -134,7 +133,7 @@
     padding-bottom: 25px;
   }
 }
-.decor-element {
+.about-decor-element {
   border-bottom: 4px solid $gray-separator-color;
-  background-color: $gray-bg-color
+  padding-top: 30px;
 }
