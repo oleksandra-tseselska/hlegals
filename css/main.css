@@ -3025,6 +3025,10 @@ a:hover {
 .footer-nav__link-map {
   padding: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 12px;
   font-weight: bold;
   line-height: 1.16667;
@@ -3040,6 +3044,10 @@ a:hover {
   padding: 10px;
   font-size: 38px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .footer-nav__link-facebook:hover {
@@ -3067,6 +3075,10 @@ a:hover {
 .footer-nav__item-email {
   padding: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 16px;
   line-height: 1.1875;
   font-weight: 700;
@@ -3271,6 +3283,10 @@ a:hover {
 
 .skills-title {
   color: #b3b3ba;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 32px;
   line-height: 1.1875;
   font-weight: bold;
@@ -3302,6 +3318,10 @@ a:hover {
       -ms-flex-align: end;
           align-items: flex-end;
   color: #b3b3ba;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
   font-size: 32px;
   line-height: 1.1875;
   font-weight: bold;
@@ -4009,18 +4029,14 @@ a:hover {
 .publications-section {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 40px;
   background-color: #f5f5fa;
 }
 
 @media (min-width: 768px) {
-  .publications-section {
-    padding-bottom: 0;
-  }
   .publications-section:after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     width: 100%;
     height: 200px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 245, 250, 0)), color-stop(86.5%, #F5F5FA));
@@ -4152,6 +4168,10 @@ a:hover {
   line-height: 1.21429;
   color: white;
   background-color: #24a3ff;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .publications-link-btn:hover {
@@ -4172,8 +4192,15 @@ a:hover {
   }
 }
 
-.decor-element {
+.home-decor-element {
   border-bottom: 4px solid #e6e6f0;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .home-decor-element {
+    padding-top: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -4340,12 +4367,11 @@ a:hover {
     font-size: 96px;
     line-height: 1.17708;
     letter-spacing: 63px;
-    background-image: url(../images/about/team_desktop.jpg);
+    background-image: url(../images/about/team_desktop_1x.jpg);
   }
 }
 
 .about-page-carousel {
-  padding-bottom: 30px;
   background-color: #f5f5fa;
 }
 
@@ -4392,9 +4418,9 @@ a:hover {
   }
 }
 
-.decor-element {
+.about-decor-element {
   border-bottom: 4px solid #e6e6f0;
-  background-color: #f5f5fa;
+  padding-top: 30px;
 }
 
 .contacts-section {
@@ -4404,7 +4430,7 @@ a:hover {
 
 @media (min-width: 1200px) {
   .contacts-section {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 }
 
@@ -4452,6 +4478,10 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   font-size: 21px;
   line-height: 1.42857;
 }
@@ -4476,6 +4506,10 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #24a3ff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .contacts-section__info-social:hover {
@@ -4504,7 +4538,6 @@ a:hover {
 
 .contacts-section__form {
   margin-right: -20px;
-  margin-bottom: 40px;
   margin-left: -20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4561,6 +4594,11 @@ a:hover {
   line-height: 1.44444;
 }
 
+.contacts-section__form-user-message {
+  width: 100%;
+  min-height: 180px;
+}
+
 .contacts-section__form-text {
   padding-bottom: 20px;
   color: #b3b3ba;
@@ -4591,6 +4629,10 @@ a:hover {
   line-height: 17px;
   color: white;
   background-color: #24a3ff;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .contacts-section__form-send-btn:hover {
@@ -4602,6 +4644,9 @@ a:hover {
 }
 
 .contacts-iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: none;
   width: 100%;
   height: 600px;
@@ -4740,6 +4785,10 @@ a:hover {
           flex-direction: column;
   margin-bottom: 5px;
   color: #323264;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
   font-size: 18px;
   line-height: 1.16667;
   font-weight: 500;
